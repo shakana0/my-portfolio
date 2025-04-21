@@ -2,25 +2,18 @@
 import { JSX, useEffect, useRef, useState } from "react";
 import { Color, Scene, Fog, PerspectiveCamera, Vector3 } from "three";
 import ThreeGlobe from "three-globe";
-import { useThree, Canvas, extend } from "@react-three/fiber";
+import { useThree, Canvas, extend, Object3DNode } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import countries from "@/data/globe.json";
 import Globe from "three-globe";
 
-// Register the Three.js object in React Three Fiber
-extend({ ThreeGlobe: Globe });
-
-// declare module "@react-three/fiber" {
-//   interface ThreeElements {
-//     threeGlobe: React.HTMLAttributes<HTMLElement>; // General fallback type
-//   }
-// }
-
 declare module "@react-three/fiber" {
   interface ThreeElements {
-    threeGlobe: JSX.IntrinsicElements["group"]; // Using "group" for three.js objects
+    threeGlobe: Object3DNode<ThreeGlobe, typeof ThreeGlobe>;
   }
 }
+
+extend({ ThreeGlobe });
 
 const RING_PROPAGATION_SPEED = 3;
 const aspect = 1.2;
@@ -232,7 +225,13 @@ export function GlobeX({ globeConfig, data }: WorldProps) {
     };
   }, [globeRef.current, globeData]);
 
-  return <>{globeRef.current && <primitive object={globeRef.current} />}</>;
+  // return <>{globeRef.current && <primitive object={globeRef.current} />}</>;
+  return (
+    <>
+      {" "}
+      <threeGlobe ref={globeRef} />
+    </>
+  );
 }
 
 export function WebGLRendererConfig() {
