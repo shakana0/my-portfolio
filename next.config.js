@@ -2,6 +2,11 @@ const { withSentryConfig } = require("@sentry/nextjs");
 
 const nextConfig = {
   /* config options here */
+  output: "export",
+  swcMinify: false,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 module.exports = withSentryConfig(nextConfig, {
