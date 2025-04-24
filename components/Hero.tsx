@@ -34,18 +34,18 @@ const Hero = () => {
       <div className="flex justify-center relative mb-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic With Next.js
+            Where UX Meets Fullstack Functionality{" "}
           </h2>
           <TextGenerateEffect
-            words="Transforming Concepts Into Seamless User Experiences"
+            words="Crafting Thoughtful Interfaces With Purpose"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Shakana, a Fullstack Developer with a Frontend Focus
-            based in Stockholm.
+          <p className="text-center md:tracking-wider mt-2 mb-6 text-sm md:text-lg lg:text-2xl">
+            Hi! I&apos;m Shakana – a frontend-focused fullstack developer
+            crafting intuitive, secure web experiences from Stockholm.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

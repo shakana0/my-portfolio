@@ -7,8 +7,8 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open communication ",
-        description: "",
+        title: "I thrive in open, collaborative environments.",
+        description: " I prioritize close collaboration and open, honest communication – whether it’s with clients, designers, or my team members.",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
@@ -17,7 +17,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm very flexible with time zone communications",
+        title: "Flexible across time zones and async-friendly",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -37,7 +37,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Tech enthusiast with a passion for development.",
+        title: "Passionate about clean, secure, and purposeful code",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -48,8 +48,8 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently building a JS Animation library",
-        description: "The Inside Scoop",
+        title: "Improving my fullstack quiz platform – new UI incoming",
+        description: "Quiz App",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -58,7 +58,7 @@ export const gridItems = [
     },
     {
         id: 6,
-        title: "Do you want to start a project together?",
+        title: "Open to new opportunities or collaborations – feel free to get in touch!",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -71,11 +71,11 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/shakana0/my-portfolio",
+        title: "Quiz App – Secure Learning Platform",
+        des: "Is a fullstack educational tool designed to help users learn interactively through quizzes",
+        img: "/quiz-app-lp.png",
+        iconLists: ["/re.svg", "/ts.svg", "styledcomponents.svg", "/redux.svg", "/node-js.svg", "/mdb.svg"],
+        link: "https://github.com/shakana0/quiz-app",
     },
     {
         id: 2,
@@ -103,98 +103,28 @@ export const projects = [
     },
 ];
 
-export const testimonials = [
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-];
-
-export const companies = [
-    {
-        id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
-    },
-    {
-        id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
-    },
-    {
-        id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
-    },
-];
-
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Full Stack Developer",
+        company: " Avanade Sweden AB, Stockholm | Aug 2023 - Current",
+        desc: "Delivered a fullstack feature to improve internal UX for staff managing users and system data, combining secure APIs with a dynamic frontend built in .Net and Next.js.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2",
-        thumbnail: "/exp2.svg",
-    },
-    {
-        id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        title: "Frontend Developer Intern",
+        company: "SJ AB, Stockholm | Jan 2023 - May 2023",
+        desc: "Rebuilt and optimized the frontend of an internal tool for train status management. Improved UI performance and aligned with the company’s design system, enabling faster workflows and boosting staff productivity",
         className: "md:col-span-2",
         thumbnail: "/exp3.svg",
     },
     {
-        id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        id: 3,
+        title: "Frontend Developer Intern",
+        company: "Gibon, Uppsala | Aug 2022 - Oct 2022",
+        desc: "Built a frontend uptime monitor with React, Redux, and TypeScript, visualizing real-time metrics via REST API. Designed custom SVGs in Figma and led the project independently.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },

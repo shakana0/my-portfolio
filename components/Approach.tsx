@@ -12,7 +12,7 @@ const Approach = () => {
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-8 lg:gap-4">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
@@ -80,7 +80,7 @@ const Card = ({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center
-       dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl "
+       dark:border-white/[0.2] max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
       style={{
         background: "rgb(4,7,29)",
         backgroundColor:
@@ -104,7 +104,7 @@ const Card = ({
         )}
       </AnimatePresence>
 
-      <div className="relative z-20 px-10">
+      <div className="hidden lg:block relative z-20 px-10">
         <div
           className="text-center group-hover/canvas-card:-translate-y-4 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
         group-hover/canvas-card:opacity-0 transition duration-200 min-w-40 mx-auto flex items-center justify-center"
@@ -122,6 +122,29 @@ const Card = ({
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
          group-hover/canvas-card:-translate-y-2 transition duration-200"
+          style={{ color: "#E4ECFF" }}
+        >
+          {des}
+        </p>
+      </div>
+      <div className="lg:hidden relative z-20 px-2 min-h-[50vh] flex justify-around flex-col items-center">
+        <div
+          className="text-center 
+        transition duration-200 min-w-40 mx-auto flex items-center justify-center"
+        >
+          {icon}
+        </div>
+        <h2
+          className="text-white text-center text-3xl
+         relative z-10 mt-4  font-boldtext-white 
+         -translate-y-2 transition duration-200"
+        >
+          {title}
+        </h2>
+        <p
+          className="text-sm
+         relative z-10 mt-4text-white text-center
+         -translate-y-2 transition duration-200"
           style={{ color: "#E4ECFF" }}
         >
           {des}
