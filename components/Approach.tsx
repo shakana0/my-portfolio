@@ -14,11 +14,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-8 lg:gap-4">
         <Card
-          title="Planning & Strategy"
+          title="Thoughtful Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="A strong foundation is key. I ensure clear requirements, document everything, and align with stakeholders. If anything is uncertain, we address it right away."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Iteration"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="I dive into coding with a focus on seamless integration, performance, security, and scalability. Continuous collaboration ensures agility, and I take full ownership—finding solutions when needed."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -44,11 +40,9 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment & Support"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Once approved, the code goes live. My responsibility doesn’t end there—I continue supporting my work post-release to make everyone’s job easier."
         >
           <CanvasRevealEffect
             animationSpeed={3}
