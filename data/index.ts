@@ -78,6 +78,14 @@ export const projects = [
         link: "https://github.com/shakana0/quiz-app",
     },
     {
+        id: 3,
+        title: "Backend-focused API",
+        des: "Backend-first e-commerce API with CQRS, MediatR, and EF Core.",
+        img: "/backend-diagram.jpg",
+        iconLists: ["/csharp.svg", "/dotnet.svg", "/sql.svg"],
+        link: "https://github.com/shakana0/BakeryStoreBackend",
+    },
+    {
         id: 2,
         title: "Café Mundo",
         des: "is a full-stack application where you can browse and buy different coffee products.",
@@ -85,14 +93,6 @@ export const projects = [
         iconLists: ["/re.svg", "/ts.svg", "styledcomponents.svg", "/node-js.svg", "/mdb.svg"],
         link: "https://github.com/shakana0/Recept-app",
     },
-    {
-        id: 3,
-        title: "Backend-focused API",
-        des: "Backend-first e-commerce API with CQRS, MediatR, and EF Core.",
-        img: "/backend-diagram.jpg",
-        iconLists: ["/csharp.svg", "/dotnet.svg", "/sql.svg"],
-        link: "https://github.com/shakana0/BakeryStoreBackend",
-    }
 ];
 
 export const workExperience = [
