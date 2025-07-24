@@ -8,7 +8,7 @@ export const gridItems = [
     {
         id: 1,
         title: "I thrive in open, collaborative environments.",
-        description: " I prioritize close collaboration and open, honest communication – whether it’s with clients, designers, or my team members.",
+        description: " I prioritize close collaboration and open, honest communication whether it’s with clients, designers, or my team members.",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
@@ -17,7 +17,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "Flexible across time zones and async-friendly",
+        title: "Flexible across time zones and async-friendly.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -37,7 +37,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Passionate about clean, secure, and purposeful code",
+        title: "Passionate about clean, secure, and purposeful code.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -48,7 +48,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Improving my fullstack quiz platform – new UI incoming",
+        title: "Improving my fullstack quiz platform. New UI incoming!",
         description: "Quiz App",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -58,7 +58,7 @@ export const gridItems = [
     },
     {
         id: 6,
-        title: "Open to new opportunities or collaborations – feel free to get in touch!",
+        title: "Open to new opportunities or collaborations, feel free to get in touch!",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -82,13 +82,13 @@ export const projects = [
         title: "Backend-focused API",
         des: "Backend-first e-commerce API with CQRS, MediatR, and EF Core.",
         img: "/backend-diagram.jpg",
-        iconLists: ["/csharp.svg", "/dotnet.svg", "/sql.svg"],
+        iconLists: ["/csharp.svg", "/dotnet.svg", "/sql.svg", "/azure.svg"],
         link: "https://github.com/shakana0/BakeryStoreBackend",
     },
     {
         id: 2,
         title: "Café Mundo",
-        des: "is a full-stack application where you can browse and buy different coffee products.",
+        des: "Is a full-stack application where you can browse and buy different coffee products.",
         img: "/coffee-app-home.png",
         iconLists: ["/re.svg", "/ts.svg", "styledcomponents.svg", "/node-js.svg", "/mdb.svg"],
         link: "https://github.com/shakana0/Recept-app",
@@ -99,7 +99,7 @@ export const workExperience = [
     {
         id: 1,
         title: "Full Stack Developer",
-        company: " Avanade Sweden AB, Stockholm | Aug 2023 - Current",
+        company: " Avanade Sweden AB, Stockholm | Aug 2023 - 2025 May",
         desc: "Delivered a fullstack feature to improve internal UX for staff managing users and system data, combining secure APIs with a dynamic frontend built in .Net and Next.js.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
@@ -108,7 +108,7 @@ export const workExperience = [
         id: 2,
         title: "Frontend Developer Intern",
         company: "SJ AB, Stockholm | Jan 2023 - May 2023",
-        desc: "Rebuilt and optimized the frontend of an internal tool for train status management. Improved UI performance and aligned with the company’s design system, enabling faster workflows and boosting staff productivity",
+        desc: "Rebuilt and optimized the frontend of an internal tool for train status management. Improved UI performance and aligned with the company’s design system, enabling faster workflows and boosting staff productivity.",
         className: "md:col-span-2",
         thumbnail: "/exp3.svg",
     },

@@ -12,7 +12,7 @@ const Footer = () => {
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Looking for a skilled full-stack developer with expertise in React,
-          TypeScript, Next.js, TailwindCSS, .NET, and Azure?. Let’s connect and
+          TypeScript, Next.js, C#/.NET, SQL and Azure?. Let’s connect and
           explore how I can contribute to your team.
         </p>
         <a href="mailto:shakanajamal3@gmail.com">

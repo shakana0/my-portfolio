@@ -42,7 +42,7 @@ const Approach = () => {
         <Card
           title="Deployment & Support"
           icon={<AceternityIcon order="Phase 3" />}
-          des="Once approved, the code goes live. My responsibility doesn’t end there—I continue supporting my work post-release to make everyone’s job easier."
+          des="Once approved, the code goes live. My responsibility doesn’t end there. I continue supporting my work post-release to make everyone’s job easier."
         >
           <CanvasRevealEffect
             animationSpeed={3}

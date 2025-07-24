@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   title: "Shakana's Portfolio",
   description:
     "Hi, I'm Shakana Jamal Moalin – a frontend and fullstack developer passionate about clean design, secure web applications, and user-friendly experiences. I specialize in React, Next.js, TypeScript, and .NET. Explore my projects and discover how I bring ideas to life through code.",
+  icons: {
+    icon: "/plant.svg",
+    shortcut: "/plant.svg",
+    apple: "/plant.svg",
+  },
 };
 
 export default function RootLayout({
