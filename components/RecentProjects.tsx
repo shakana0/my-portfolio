@@ -3,6 +3,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import ImageSlider from "./ImageSlider";
 
 const RecentProjects = () => {
   return (
@@ -14,23 +15,19 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-8 xl:gap-20">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="md:pt-10 xl:pt-20 2xl:pt-40 sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
             <PinContainer title={item.title} href={item.link}>
               <a href={item.link} target="_blank" rel="noopener noreferrer">
-                <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] xl:h-auto mb-10">
-                  <div
-                    className="relative w-full h-full xl:h-auto overflow-hidden lg:rounded-3xl"
-                    style={{ backgroundColor: "#13162D" }}
-                  >
-                    <img src="/bg.png" alt="bgimg" />
-                  </div>
+                <div className="relative flex items-center justify-center w-[80vw] sm:w-[570px] max-w-[1440px] overflow-hidden h-[30vh] sm:h-[40vh] xl:h-[40vh] 2xl:h-[38vh] max-h-[600px] aspect-[16/9] mb-10">
                   <img
-                    src={item.img}
-                    alt="cover"
-                    className="z-10 absolute bottom-0 w-full xl:h-auto h-full object-contain"
+                    src="/bg.png"
+                    alt="bgimg"
+                    className="absolute inset-0 z-0 w-full h-full object-cover lg:rounded-3xl"
                   />
+
+                  <ImageSlider images={item.img} />
                 </div>
 
                 <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
