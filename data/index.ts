@@ -7,10 +7,10 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I thrive in open, collaborative environments.",
-        description: " I prioritize close collaboration and open, honest communication whether it’s with clients, designers, or my team members.",
+        title: "My Engineering Principles",
+        description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-        imgClassName: "w-full h-full",
+        imgClassName: "w-full h-full opacity-15",
         titleClassName: "justify-end",
         img: "/b1.svg",
         spareImg: "",
@@ -71,6 +71,14 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "Product Catalog – API Optimization",
+        des: "Two API versions, both serving the same product catalog but built to demonstrate the impact of API optimization, cloud integration, and load testing",
+        img: ["/prodcat1.png", "/prodcat2.png", "/prodcat3.png", "/prodcatarch.png", "/prodcatload.png"],
+        iconLists: ["/re.svg", "/ts.svg", "/csharp.svg", "/dotnet.svg", "/sql.svg", "/azure.svg"],
+        link: "https://github.com/shakana0/ProductCatalogAPI",
+    },
+    {
+        id: 2,
         title: "Quiz App – Secure Learning Platform",
         des: "Is a fullstack educational tool designed to help users learn interactively through quizzes",
         img: ["/quiz-app-lp.png", "/quiz-app-profile.png", "/quiz-app-game-board.png"],
@@ -79,7 +87,7 @@ export const projects = [
     },
     {
 
-        id: 2,
+        id: 3,
         title: "CursedVibes API",
         des: "Narrative-driven fullstack API with clean architecture, Azure cloud integration, and GitHub Actions CI/CD.",
         img: ["/cursedVibes-Diagram.png", "/character-erdiagram.png", "/cursedVibes-swagger.jpeg"],
@@ -87,7 +95,7 @@ export const projects = [
         link: "https://github.com/shakana0/CursedVibes",
     },
     {
-        id: 3,
+        id: 4,
         title: "Backend-focused API",
         des: "Backend-first e-commerce API with CQRS, MediatR, and EF Core.",
         img: ["/backend-diagram.jpg", "/bakeryStoreBackend-SQL-erdiagram.png"],
