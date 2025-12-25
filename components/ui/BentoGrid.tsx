@@ -78,7 +78,7 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover object-center ")}
+              className={cn(imgClassName, "object-cover object-center")}
             />
           )}
         </div>
@@ -100,17 +100,33 @@ export const BentoGridItem = ({
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
         )}
-
         <div
           className={cn(
             titleClassName,
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
-            {description}
-          </div>
-          <div className={` lg:text-xl max-w-96 font-bold z-10`}>{title}</div>
+          <div className="lg:text-xl max-w-96 font-bold z-10">{title}</div>
+
+          {id === 1 ? (
+            <ul className="list-disc pl-5 font-extralight md:text-xs lg:text-base text-s z-10 space-y-1 pt-8">
+              <li>Prefer explicit domain models over implicit behavior</li>
+              <li>
+                APIs should be predictable, observable, and secure by default
+              </li>
+              <li>Cloud resources must be cost-aware and measurable</li>
+              <li>
+                Frontend components should be composable, testable, and
+                accessible
+              </li>
+              <li>Every feature must have a rollback strategy</li>
+            </ul>
+          ) : (
+            <div className="font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+              {description}
+            </div>
+          )}
+
           {id === 2 && <GridGlobe />}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
