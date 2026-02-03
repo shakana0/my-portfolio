@@ -24,9 +24,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Iteration"
+          title="Architecture & Ownership"
           icon={<AceternityIcon order="Phase 2" />}
-          des="I dive into coding with a focus on seamless integration, performance, security, and scalability. Continuous collaboration ensures agility, and I take full ownership—finding solutions when needed."
+          des="I design scalable systems with rollback strategies, cost-aware cloud setups, and explicit domain models.
+          I dive into coding with a focus on seamless integration, performance, 
+          security, and scalability"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -40,9 +42,9 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Deployment & Support"
+          title="Impact & Iteration"
           icon={<AceternityIcon order="Phase 3" />}
-          des="Once approved, the code goes live. My responsibility doesn’t end there. I continue supporting my work post-release to make everyone’s job easier."
+          des="I measure outcomes, gather feedback, and iterate with purpose. Tech leadership means owning results, not just delivery."
         >
           <CanvasRevealEffect
             animationSpeed={3}
