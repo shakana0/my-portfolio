@@ -17,7 +17,10 @@ const Hero = () => {
           className="-top-10 left-full h-[80vh] w-[50vw]"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />{" "}
+        <Spotlight
+          className="left-80 top-28 h-[80vh] w-[50vw]"
+          fill="blue"
+        />{" "}
       </div>
       <div className=" flex h-[50rem] w-full items-center justify-center bg-white dark:bg-black-100 bg-grid absolute top-0 left-0">
         <div
@@ -25,7 +28,7 @@ const Hero = () => {
             "absolute inset-0",
             "[background-size:40px_40px]",
             "[background-image:linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)]",
-            "bg-black-100"
+            "bg-black-100",
           )}
         />
         {/* Radial gradient for the container to give a faded look */}
@@ -41,8 +44,8 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mt-2 mb-6 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Shakana – a backend-focused fullstack developer
-            building secure, scalable systems with Azure and clean architecture.
+            Hi! I&apos;m Shakana – a fullstack developer building secure,
+            scalable systems with Azure and clean architecture.
           </p>
 
           <a href="#projects">
