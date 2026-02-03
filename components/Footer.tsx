@@ -11,8 +11,8 @@ const Footer = () => {
           Professional & <span className="text-purple">Confident</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Looking for a skilled full-stack developer with expertise in React,
-          TypeScript, Next.js, C#/.NET, SQL and Azure?. Let’s connect and
+          Looking for a skilled full-stack developer with expertise in C#/.NET,
+          SQL and Azure, React, TypeScript and Next.js?. Let’s connect and
           explore how I can contribute to your team.
         </p>
         <a href="mailto:shakanajamal3@gmail.com">
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 flex-col items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Shakana Jamal Moalin
+          Copyright © 2026 Shakana Jamal Moalin
         </p>
 
         <div className="flex items-center md:gap-3 gap-6 mt-4">
