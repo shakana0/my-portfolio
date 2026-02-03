@@ -108,13 +108,21 @@ export const workExperience = [
     {
         id: 1,
         title: "Full Stack Developer",
-        company: " Avanade Sweden AB, Stockholm | Aug 2023 - 2025 May",
+        company: "SALT, Stockholm | Oct 2025 - Present",
+        desc: "Served as the technical lead in an internal full‑stack project, defining architecture, reviewing PRs, and coordinating work across the team.",
+        className: "md:col-span-2",
+        thumbnail: "/exp4.svg",
+    },
+    {
+        id: 2,
+        title: "Full Stack Developer",
+        company: "Avanade Sweden AB, Stockholm | Aug 2023 - 2025 May",
         desc: "Delivered a fullstack feature with secure, scalable APIs, optimized SQL interactions, and Azure-integrated credential management - paired with a responsive frontend in C#/.NET and Next.js.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
-        id: 2,
+        id: 3,
         title: "Frontend Developer Intern",
         company: "SJ AB, Stockholm | Jan 2023 - May 2023",
         desc: "Rebuilt and optimized the frontend of an internal tool for train status management. Improved UI performance and aligned with the company’s design system, enabling faster workflows and boosting staff productivity.",
@@ -122,13 +130,13 @@ export const workExperience = [
         thumbnail: "/exp3.svg",
     },
     {
-        id: 3,
+        id: 4,
         title: "Frontend Developer Intern",
         company: "Gibon, Uppsala | Aug 2022 - Oct 2022",
         desc: "Built a frontend uptime monitor with React, Redux, and TypeScript, visualizing real-time metrics via REST API. Designed custom SVGs in Figma and led the project independently.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
-    },
+    }
 ];
 
 export const socialMedia = [
