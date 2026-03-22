@@ -71,6 +71,22 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "FinSolve – Intelligent Document Processing",
+        des: "Enterprise-grade serverless IDP system automating financial document flows. Features a resilient event-driven architecture with Azure Service Bus and Logic Apps, optimized for high scalability and extreme cost-efficiency.",
+        img: ["idp1.png", "/idp2.png", "/idp3.png", "/idp4.png"],
+        iconLists: ["/dotnet.svg", "/azure.svg", "/bicep.png", "/az-fn.png", "/az-sb.png", "/az-cs.png"],
+        link: "https://github.com/shakana0/FinSolve.IDP",
+    },
+    {
+        id: 2,
+        title: "PulseCare – Backend & Engineering Lead",
+        des: "A digital healthcare ecosystem featuring real-time SignalR communication, secure JWT authentication, and a robust repository pattern. Led a team of 10+ developers with a focus on engineering governance and architectural integrity.",
+        img: ["/pl1.png", "/pl2.png", "/pl3.png"],
+        iconLists: ["/re.svg", "/csharp.svg", "/dotnet.svg", "/sql.svg", "/azure.svg", "/docker.png"],
+        link: "https://github.com/shakana0/PulseCare-backend",
+    },
+    {
+        id: 3,
         title: "Product Catalog – API Optimization",
         des: "Two API versions, both serving the same product catalog but built to demonstrate the impact of API optimization, cloud integration, and load testing",
         img: ["/prodcat1.png", "/prodcat2.png", "/prodcat3.png", "/prodcatarch.png", "/prodcatload.png"],
@@ -78,30 +94,14 @@ export const projects = [
         link: "https://github.com/shakana0/ProductCatalogAPI",
     },
     {
-        id: 2,
-        title: "Quiz App – Secure Learning Platform",
-        des: "Is a fullstack educational tool designed to help users learn interactively through quizzes",
-        img: ["/quiz-app-lp.png", "/quiz-app-profile.png", "/quiz-app-game-board.png"],
-        iconLists: ["/re.svg", "/ts.svg", "styledcomponents.svg", "/redux.svg", "/node-js.svg", "/mdb.svg"],
-        link: "https://github.com/shakana0/quiz-app",
-    },
-    {
 
-        id: 3,
+        id: 4,
         title: "CursedVibes API",
         des: "Narrative-driven fullstack API with clean architecture, Azure cloud integration, and GitHub Actions CI/CD.",
         img: ["/cursedVibes-Diagram.png", "/character-erdiagram.png", "/cursedVibes-swagger.jpeg"],
         iconLists: ["/csharp.svg", "/dotnet.svg", "/azure.svg", "/sql.svg", "/githubactions.svg"],
         link: "https://github.com/shakana0/CursedVibes",
-    },
-    {
-        id: 4,
-        title: "Backend-focused API",
-        des: "Backend-first e-commerce API with CQRS, MediatR, and EF Core.",
-        img: ["/backend-diagram.jpg", "/bakeryStoreBackend-SQL-erdiagram.png"],
-        iconLists: ["/csharp.svg", "/dotnet.svg", "/sql.svg", "/azure.svg"],
-        link: "https://github.com/shakana0/BakeryStoreBackend",
-    },
+    }
 ];
 
 export const workExperience = [
