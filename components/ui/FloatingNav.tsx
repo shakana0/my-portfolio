@@ -21,13 +21,11 @@ export const FloatingNav = ({
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();
-
   const [visible, setVisible] = useState(false);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
-    // Check if current is not undefined and is a number
     if (typeof current === "number") {
-      let direction = current! - scrollYProgress.getPrevious()!;
+      let direction = current - scrollYProgress.getPrevious()!;
 
       if (scrollYProgress.get() < 0.05) {
         setVisible(false);
@@ -44,20 +42,15 @@ export const FloatingNav = ({
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        initial={{
-          opacity: 1,
-          y: -100,
-        }}
+        initial={{ opacity: 1, y: -100 }}
         animate={{
           y: visible ? 0 : -100,
           opacity: visible ? 1 : 0,
         }}
-        transition={{
-          duration: 0.2,
-        }}
+        transition={{ duration: 0.2 }}
         className={cn(
-          "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-5 rounded-full border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-center space-x-4 bg-black",
-          className
+          "flex max-w-fit md:min-w-[60vw] lg:min-w-[450px] fixed z-[5000] top-10 inset-x-0 mx-auto px-8 py-3 lg:px-12 lg:py-5 rounded-full border border-white/[0.2] shadow-xl items-center justify-center space-x-6 bg-black/80 backdrop-blur-md",
+          className,
         )}
       >
         {navItems.map((navItem: any, idx: number) => (
@@ -65,11 +58,14 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative dark:text-neutral-50 items-center flex space-x-1 dark:hover:text-neutral-300 hover:text-neutral-500"
+              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-50 hover:text-purple transition-colors duration-200",
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="text-sm !cursor-pointer">{navItem.name}</span>
+
+            <span className="text-sm lg:text-base !cursor-pointer font-medium">
+              {navItem.name}
+            </span>
           </Link>
         ))}
       </motion.div>
