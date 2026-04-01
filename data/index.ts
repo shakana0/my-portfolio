@@ -17,7 +17,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "Flexible across time zones and async-friendly.",
+        title: "Collaborative, adaptable, and async-friendly.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -27,8 +27,8 @@ export const gridItems = [
     },
     {
         id: 3,
-        title: "My tech stack",
-        description: "I constantly try to improve",
+        title: "Technical Ecosystem",
+        description: "Resilient, cost-optimized cloud solutions with a modern mindset.",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -37,7 +37,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Passionate about clean, secure, and purposeful code.",
+        title: "Prioritizing clean architecture, security, and intentional design.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -48,8 +48,8 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Improving my fullstack quiz platform. New UI incoming!",
-        description: "Quiz App",
+        title: "Finalizing the FinSolve IDP event-chain with automated Logic Apps notifications and cloud-native observability",
+        description: "IDP",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -74,12 +74,12 @@ export const projects = [
         title: "FinSolve – Intelligent Document Processing",
         des: "Enterprise-grade serverless IDP system automating financial document flows. Features a resilient event-driven architecture with Azure Service Bus and Logic Apps, optimized for high scalability and extreme cost-efficiency.",
         img: ["idp1.png", "/idp2.png", "/idp3.png", "/idp4.png"],
-        iconLists: ["/dotnet.svg", "/azure.svg", "/bicep.png", "/az-fn.png", "/az-sb.png", "/az-cs.png"],
+        iconLists: ["/csharp.svg", "/dotnet.svg", "/azure.svg", "/bicep.png", "/az-fn.png", "/az-sb.png", "/az-cs.png"],
         link: "https://github.com/shakana0/FinSolve.IDP",
     },
     {
         id: 2,
-        title: "PulseCare – Backend & Engineering Lead",
+        title: "PulseCare – Engineering Lead & Backend",
         des: "A digital healthcare ecosystem featuring real-time SignalR communication, secure JWT authentication, and a robust repository pattern. Led a team of 10+ developers with a focus on engineering governance and architectural integrity.",
         img: ["/pl1.png", "/pl2.png", "/pl3.png"],
         iconLists: ["/re.svg", "/csharp.svg", "/dotnet.svg", "/sql.svg", "/azure.svg", "/docker.png"],
