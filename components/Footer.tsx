@@ -11,9 +11,9 @@ const Footer = () => {
           Professional & <span className="text-purple">Confident</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Looking for a skilled full-stack developer with expertise in C#/.NET,
-          SQL and Azure, React, TypeScript and Next.js?. Let’s connect and
-          explore how I can contribute to your team.
+          Ready to bring scalable architecture and cloud-native expertise to
+          your next challenge? Let’s connect and build something resilient
+          together.
         </p>
         <a href="mailto:shakanajamal3@gmail.com">
           <MagicButton

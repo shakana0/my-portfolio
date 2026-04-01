@@ -40,12 +40,15 @@ const Hero = () => {
             Scalable Systems, Rooted in Clean Design
           </h2>
           <TextGenerateEffect
-            words="From Scalable APIs to Living Interfaces"
+            words="From Scalable APIs to Cloud-Native Architectures"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-          <p className="text-center md:tracking-wider mt-2 mb-6 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Shakana – a fullstack developer building secure,
-            scalable systems with Azure and clean architecture.
+          <p className="text-center md:tracking-wider mt-6 mb-6 text-sm md:text-lg lg:text-2xl">
+            Hi! I&apos;m Shakana – a Senior Full-stack Developer & Cloud Native
+            Engineer | .NET, Azure & React
+            <br />
+            Specializing in resilient architecture, API optimization, and
+            engineering leadership.
           </p>
 
           <a href="#projects">
