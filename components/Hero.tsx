@@ -44,7 +44,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mt-6 mb-6 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Shakana – a Senior Full-stack Developer & Cloud Native
+            Hi! I&apos;m Shakana – a Full-stack Developer & Cloud Native
             Engineer | .NET, Azure & React
             <br />
             Specializing in resilient architecture, API optimization, and
