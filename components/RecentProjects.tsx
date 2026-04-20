@@ -19,8 +19,13 @@ const RecentProjects = () => {
             key={item.id}
             className="flex items-center justify-center sm:w-[570px] w-[90vw] min-h-[30rem] sm:min-h-[35rem] relative"
           >
-            <PinContainer title={item.title} href={item.link}>
-              <div className="flex flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] sm:w-[570px] h-full">
+            <PinContainer title={item.title}>
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] sm:w-[570px] h-full z-10"
+              >
                 <div className="relative flex items-center justify-center w-full overflow-hidden aspect-[16/9] mb-6 rounded-xl">
                   <div className="absolute inset-0 z-0 w-full h-full bg-[#13162D] overflow-hidden">
                     <img
@@ -65,7 +70,7 @@ const RecentProjects = () => {
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </div>
                 </div>
-              </div>
+              </a>
             </PinContainer>
           </div>
         ))}
